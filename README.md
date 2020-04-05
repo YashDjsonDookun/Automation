@@ -10,4 +10,4 @@ Just add the binary to your windows path and you be able to use from your comman
 -oh and, you'll probably want to change the directory paths in the source code and compile again before using
 (also change and use your github link where its says 'YourGithub')
 
--That't it.. enjoy your nightmare
+-That's it.. enjoy your laziness!
