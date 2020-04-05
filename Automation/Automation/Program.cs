@@ -142,7 +142,7 @@ namespace Automation
             gitRun.StandardInput.WriteLine($"hub create -d \"{projectName}\"");
             gitRun.StandardInput.WriteLine($"git add .");
             gitRun.StandardInput.WriteLine($"git commit -m \"first commit\"");
-            gitRun.StandardInput.WriteLine($"git remote add origin git@github.com:YashDjsonDookun/" + $"{projectName}" + ".git");
+            gitRun.StandardInput.WriteLine($"git remote add origin git@github.com:YourGitHub/" + $"{projectName}" + ".git");
             gitRun.StandardInput.WriteLine($"git push -u origin master");
             gitRun.Close();
         }
